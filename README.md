@@ -1,7 +1,9 @@
 Add UPawnInitializationComponent to your Pawn/Character
 
 Call `PawnInitialization->HandleControllerChanged();` for overrides `PossessedBy` `UnPossessed` `OnRep_Controller`
+
 Call `PawnInitialization->HandlePlayerStateReplicated();` for override `OnRep_PlayerState`
+
 Call `PawnInitialization->SetupPlayerInputComponent();` for override `SetupPlayerInputComponent`
 
 Now bind to it:
